@@ -228,7 +228,7 @@
 	.bjl-content-box .time span{
 		text-align: center;
 		line-height: .37rem;
-		font-size: 8px;
+		font-size: 10px;
 		color: #505050;
 		font-family: '微软雅黑';
 	}
@@ -986,6 +986,11 @@
 	input:-ms-input-placeholder{
 	 color: #CEC8C8; 
 	} 
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+	    margin: 0; 
+	}
 /*-----------------------------------------------------*/
 /*订单支付底部*/
 	.bjl_order-footer{

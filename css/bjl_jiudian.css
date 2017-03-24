@@ -942,14 +942,22 @@
 		position: absolute;
 		top: 50%;
 		margin-top: -0.2rem;
-		left: 3.5rem;
+		left: 2.8rem;
 	}
-	#daodatime input{
+	#oldtime{
 		width: 1.3rem;
 		height: .4rem;
 		font-size: 14px;
 		color: #7B7B7B;
-		font-weight: 600;
+		font-weight: 400;
+		font-family: '微软雅黑';
+	}
+	#newtime{
+		width: 1.3rem;
+		height: .4rem;
+		font-size: 14px;
+		color: #7B7B7B;
+		font-weight: 400;
 		font-family: '微软雅黑';
 	}
 	#ordertelphone{
